@@ -1,0 +1,23 @@
+.box {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    font-size: 50px;
+}
+#gamebord {
+    grid-template-columns: repeat(3, auto);
+    display: grid;
+    width: 225px;
+    margin: auto;
+}
+body {
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+     background-color: antiquewhite;
+}
+#resatrtbtn {
+    background-color: rgb(152, 152, 161);
+    color: rgb(10, 8, 8); /* Change text color to white for better visibility */
+}
